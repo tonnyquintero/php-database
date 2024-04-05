@@ -1,0 +1,13 @@
+{
+    "name": "anthony/php-database",
+    "description": "proyecto de base de datos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tonny187",
+            "email": "tonyoanthony@gmail.com"
+        }
+    ],
+    "require": {}
+}
