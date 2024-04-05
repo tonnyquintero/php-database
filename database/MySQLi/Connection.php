@@ -12,7 +12,7 @@ $mysqli=new mysqli($server,$username,$password,$database,$port);
 if ($mysqli->connect_errno)
     die("Falló la conexión: {$mysqli->connect_error}");
 
-// Esto nos ayuda a poder usar cualquier caracter en nuestras consultas
+// Esto nos ayuda a poder usar cualquier caracter en nuestras consultas de base de datos
 $setnames = $mysqli->prepare("SET NAMES 'utf8'");
 $setnames->execute();
 
